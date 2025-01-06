@@ -1,0 +1,22 @@
+{
+  "name": "api-node-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "fastify": "^5.2.1",
+    "prisma": "^6.1.0",
+    "zod": "^3.24.1"
+  }
+}
